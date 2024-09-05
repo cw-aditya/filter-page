@@ -1,0 +1,7 @@
+.layout-main {
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}

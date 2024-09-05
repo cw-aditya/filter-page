@@ -1,0 +1,64 @@
+.sidebar {
+    width: 372px;
+    height: 60vh;
+    background-color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+    padding: 16px;
+}
+
+.budget {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.budget-selector {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    width: 35%;
+    height: 40px;
+    border: 1px solid #020202;
+}
+
+.budget-selector > input {
+    width: 50px;
+    font-size: 24px;
+    border: none;
+}
+.budget-selector > h5 {
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.hyphen {
+margin: 0;
+margin-top: auto;
+margin-bottom: auto;
+font-size: 24px;
+}
+
+.filter-unit {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fuel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fuel-selector {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.fuel-unit {
+    margin: 0 !important;
+    font-size: 24px;
+    font-weight: 400;
+}
