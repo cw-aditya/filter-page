@@ -10,4 +10,13 @@ export default defineConfig({
       { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
     ],
   },
+  server:{
+    proxy: {
+      '/api':{
+        target: 'https://stg.carwale.com/',
+        changeOrigin: true,
+        secure: false
+      }
+    }
+  }
 })

@@ -1,12 +1,16 @@
-import React from "react"
+import React, {useContext} from "react"
 // import '@/styles/Title.css'
 import '@/styles/Title.css'
+import { globalDataContext } from "@/utilities/contexts"
+
 type Props = {
 }
 
 function Title(props: Props) {
+  const GlobalDataContext = useContext(globalDataContext)
+  
   return (
-    <div className="title"> Used Cars in Mumbai</div>
+    <div className="title">{GlobalDataContext?.data.totalCount} Used Cars in Mumbai</div>
   )
 }
 

@@ -2,17 +2,23 @@ import { createContext, useState } from "react";
 
 export type ContextType = {
     context: {
-        data: any,
         filters: {
             budget: {
                 min: number,
                 max: number,
             },
-            fuelType: any
+            fuelType: any,
+            sortBy: string
         }
     },
     setContext: any
 }
 
+export type DataContextType = {
+    data: {
 
+    }
+}
+
+export const globalDataContext = createContext<DataContextType|null>(null)
 export const globalContext = createContext<ContextType|null>(null)

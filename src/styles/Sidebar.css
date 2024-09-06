@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     padding: 4px;
-    width: 35%;
+    width: 10rem;
     height: 40px;
     border: 1px solid #020202;
 }
