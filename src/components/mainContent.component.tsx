@@ -11,8 +11,8 @@ type Props = {}
 const MainContent = (props: Props) => {
   const GlobalDataContext = useContext(globalDataContext);
   const GlobalContext = useContext(globalContext);
-  const Data = GlobalDataContext?.data
-  // console.log("Data", Data);
+  const Data = GlobalDataContext?.data.filteredData
+  console.log("Data", GlobalDataContext?.data);
 
   return (
     <>
@@ -26,9 +26,9 @@ const MainContent = (props: Props) => {
                         copy.filters.sortBy = e.target.value
                         GlobalContext?.setContext(copy)
                     }} >
-              <option value="so=-1&sc=-1">Best Match</option>
-              <option value="so=0&sc=2">Price - Low to High</option>
-              <option value="so=1&sc=2">Price - High to Low</option>
+              <option value="best-match">Best Match</option>
+              <option value="price-low-to-high">Price - Low to High</option>
+              <option value="price-high-to-low">Price - High to Low</option>
             </select>
           </div>
         </div>
