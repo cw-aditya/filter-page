@@ -33,7 +33,7 @@
 
 .main-content {
     width: 745px;
-    height: 200vh;
+    height: 100%;
     /* background-color: aqua; */
     padding: 8px;
     display: grid;
