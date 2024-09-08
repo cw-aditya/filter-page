@@ -12,7 +12,7 @@ const MainContent = (props: Props) => {
   const GlobalDataContext = useContext(globalDataContext);
   const GlobalContext = useContext(globalContext);
   const Data = GlobalDataContext?.data.filteredData
-  console.log("Data", GlobalDataContext?.data);
+  // console.log("Data", GlobalDataContext?.data);
 
   return (
     <>
