@@ -1,0 +1,715 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Budget Filter Component Test > Budget Component Snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <span>
+        <h4
+          class="filter-label"
+        >
+          Budget
+        </h4>
+      </span>
+      <div
+        class="budget"
+      >
+        <div
+          class="budget-selector"
+        >
+          <input
+            id="budget-min"
+            name="budget-min"
+            type="number"
+            value="0"
+          />
+          <h5
+            class="filter-unit"
+          >
+            Lakh
+          </h5>
+        </div>
+        <h5
+          class="hyphen"
+        >
+          -
+        </h5>
+        <div
+          class="budget-selector"
+        >
+          <input
+            id="budget-max"
+            name="budget-max"
+            type="number"
+            value=""
+          />
+          <h5
+            class="filter-unit"
+          >
+            Lakh
+          </h5>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <h4
+        class="filter-label"
+      >
+        Budget
+      </h4>
+    </span>
+    <div
+      class="budget"
+    >
+      <div
+        class="budget-selector"
+      >
+        <input
+          id="budget-min"
+          name="budget-min"
+          type="number"
+          value="0"
+        />
+        <h5
+          class="filter-unit"
+        >
+          Lakh
+        </h5>
+      </div>
+      <h5
+        class="hyphen"
+      >
+        -
+      </h5>
+      <div
+        class="budget-selector"
+      >
+        <input
+          id="budget-max"
+          name="budget-max"
+          type="number"
+          value=""
+        />
+        <h5
+          class="filter-unit"
+        >
+          Lakh
+        </h5>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Car Card Component Test > Card Component Snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card"
+      >
+        <img
+          alt="Car image not available"
+          class="car-image"
+          src="https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/usedcar/no-car-image-with-text.svg"
+        />
+        <div
+          class="car-data"
+        >
+          <h2
+            class="car-name"
+          >
+            Some Car Name
+          </h2>
+          <span
+            class="car-details"
+          >
+            50000
+              |  
+            Petrol
+              |  
+            Mumbai
+          </span>
+          <div
+            class="car-pricing"
+          >
+            <h1
+              class="car-price"
+            >
+              Rs. 
+              5 Lakh
+            </h1>
+            <span
+              class="car-emi"
+            >
+              EMI Starts at ₹4,751
+            </span>
+          </div>
+          <button
+            class="car-get-seller-details-btn"
+          >
+            <span>
+              Get Seller Details
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card"
+    >
+      <img
+        alt="Car image not available"
+        class="car-image"
+        src="https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/usedcar/no-car-image-with-text.svg"
+      />
+      <div
+        class="car-data"
+      >
+        <h2
+          class="car-name"
+        >
+          Some Car Name
+        </h2>
+        <span
+          class="car-details"
+        >
+          50000
+            |  
+          Petrol
+            |  
+          Mumbai
+        </span>
+        <div
+          class="car-pricing"
+        >
+          <h1
+            class="car-price"
+          >
+            Rs. 
+            5 Lakh
+          </h1>
+          <span
+            class="car-emi"
+          >
+            EMI Starts at ₹4,751
+          </span>
+        </div>
+        <button
+          class="car-get-seller-details-btn"
+        >
+          <span>
+            Get Seller Details
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Fuel Filter Component > Fuel Filter Component Snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <span>
+        <h4
+          class="filter-label"
+        >
+          Fuel
+        </h4>
+      </span>
+      <div
+        class="fuel"
+      >
+        <div
+          class="fuel-selector"
+        >
+          <input
+            id="Petrol"
+            name="Petrol"
+            type="checkbox"
+          />
+          <h5
+            class="fuel-unit"
+          >
+            Petrol
+          </h5>
+        </div>
+        <div
+          class="fuel-selector"
+        >
+          <input
+            id="Diesel"
+            name="Diesel"
+            type="checkbox"
+          />
+          <h5
+            class="fuel-unit"
+          >
+            Diesel
+          </h5>
+        </div>
+        <div
+          class="fuel-selector"
+        >
+          <input
+            id="Cng"
+            name="Cng"
+            type="checkbox"
+          />
+          <h5
+            class="fuel-unit"
+          >
+            Cng
+          </h5>
+        </div>
+        <div
+          class="fuel-selector"
+        >
+          <input
+            id="Lpg"
+            name="Lpg"
+            type="checkbox"
+          />
+          <h5
+            class="fuel-unit"
+          >
+            Lpg
+          </h5>
+        </div>
+        <div
+          class="fuel-selector"
+        >
+          <input
+            id="Electric"
+            name="Electric"
+            type="checkbox"
+          />
+          <h5
+            class="fuel-unit"
+          >
+            Electric
+          </h5>
+        </div>
+        <div
+          class="fuel-selector"
+        >
+          <input
+            id="Hybrid"
+            name="Hybrid"
+            type="checkbox"
+          />
+          <h5
+            class="fuel-unit"
+          >
+            Hybrid
+          </h5>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <h4
+        class="filter-label"
+      >
+        Fuel
+      </h4>
+    </span>
+    <div
+      class="fuel"
+    >
+      <div
+        class="fuel-selector"
+      >
+        <input
+          id="Petrol"
+          name="Petrol"
+          type="checkbox"
+        />
+        <h5
+          class="fuel-unit"
+        >
+          Petrol
+        </h5>
+      </div>
+      <div
+        class="fuel-selector"
+      >
+        <input
+          id="Diesel"
+          name="Diesel"
+          type="checkbox"
+        />
+        <h5
+          class="fuel-unit"
+        >
+          Diesel
+        </h5>
+      </div>
+      <div
+        class="fuel-selector"
+      >
+        <input
+          id="Cng"
+          name="Cng"
+          type="checkbox"
+        />
+        <h5
+          class="fuel-unit"
+        >
+          Cng
+        </h5>
+      </div>
+      <div
+        class="fuel-selector"
+      >
+        <input
+          id="Lpg"
+          name="Lpg"
+          type="checkbox"
+        />
+        <h5
+          class="fuel-unit"
+        >
+          Lpg
+        </h5>
+      </div>
+      <div
+        class="fuel-selector"
+      >
+        <input
+          id="Electric"
+          name="Electric"
+          type="checkbox"
+        />
+        <h5
+          class="fuel-unit"
+        >
+          Electric
+        </h5>
+      </div>
+      <div
+        class="fuel-selector"
+      >
+        <input
+          id="Hybrid"
+          name="Hybrid"
+          type="checkbox"
+        />
+        <h5
+          class="fuel-unit"
+        >
+          Hybrid
+        </h5>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Main Component Tests > Main Component Snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="main"
+      >
+        <div
+          class="top-filter"
+        >
+          <div
+            class="sort-by"
+          >
+            <p
+              class="sort-label"
+            >
+              Sort By:
+            </p>
+            <select
+              class="sort-by-select"
+              id="sort-by"
+              name="sort-by"
+            >
+              <option
+                value="best-match"
+              >
+                Best Match
+              </option>
+              <option
+                value="price-low-to-high"
+              >
+                Price - Low to High
+              </option>
+              <option
+                value="price-high-to-low"
+              >
+                Price - High to Low
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="main-content"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="main"
+    >
+      <div
+        class="top-filter"
+      >
+        <div
+          class="sort-by"
+        >
+          <p
+            class="sort-label"
+          >
+            Sort By:
+          </p>
+          <select
+            class="sort-by-select"
+            id="sort-by"
+            name="sort-by"
+          >
+            <option
+              value="best-match"
+            >
+              Best Match
+            </option>
+            <option
+              value="price-low-to-high"
+            >
+              Price - Low to High
+            </option>
+            <option
+              value="price-high-to-low"
+            >
+              Price - High to Low
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        class="main-content"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
