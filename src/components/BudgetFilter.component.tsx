@@ -17,8 +17,8 @@ const BudgetFilter = (props: Props) => {
 
                 {/* Min */}
                 <div className='budget-selector'>
-                    <input type="number" name="budget-min" id="budget-min" value={GContext?.context.filters.budget.min} onChange={(e)=>{
-                        var copy = JSON.parse(JSON.stringify(GContext?.context))
+                    <input type="number" name="budget-min" id="budget-min" value={GContext?.context.filters.budget.min ? GContext?.context.filters.budget.min : 0} onChange={(e)=>{
+                        const copy = JSON.parse(JSON.stringify(GContext?.context))
                         copy.filters.budget.min = (Number(e.target.value) < GContext?.context.filters.budget.max)? Number(e.target.value) : GContext?.context.filters.budget.min
                         GContext?.setContext(copy)
                     }} />

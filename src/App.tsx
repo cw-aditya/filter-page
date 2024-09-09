@@ -52,9 +52,9 @@ function App() {
 
   useEffect(() => {
     async function call() {
-      console.log('Fetching Data ...');
+      // console.log('Fetching Data ...');
 
-      let baseUrl = '/data.json'
+      let baseUrl = 'http://localhost:5173/data.json'
       // baseUrl += `budget=${context.filters.budget.min}-${context.filters.budget.max}`
       // if(context.filters.fuelType.length>0){
       //   baseUrl = baseUrl + '&fuel=' +`${context.filters.fuelType.join('+')}`
