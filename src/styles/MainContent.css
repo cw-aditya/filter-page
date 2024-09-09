@@ -33,8 +33,7 @@
 
 .main-content {
     width: 745px;
-    height: 200vh;
-    /* background-color: aqua; */
+    height: 100%;    /* background-color: aqua; */
     padding: 8px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
@@ -69,13 +68,11 @@
 }
 
 .no-image {
-    max-height: 112px;
-    max-width: 174px;
-    height: 100% !important;
-    width: 100% !important;
     margin-top: auto;
     margin-bottom: auto;
+    padding: 4rem;
     justify-self: center;
+    background-color: #EFEFEF;
     /* position: absolute; */
     /* left: 50% !important;
     top: 50% !important;

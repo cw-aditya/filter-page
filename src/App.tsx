@@ -6,19 +6,11 @@ import MainLayout from './layouts/main.layout'
 import MainContent from './components/mainContent.component'
 import { globalContext, globalDataContext } from './utilities/contexts'
 import { log } from 'console'
+import { DefualtGlobalContextState } from './utilities/defaultStates'
 
 function App() {
 
-  const [context, setContext] = useState({
-    filters: {
-      budget: {
-        min: 0,
-        max: 21,
-      },
-      fuelType: [],
-      sortBy: 'best-match'
-    }
-  })
+  const [context, setContext] = useState(DefualtGlobalContextState)
   const [data, setData] = useState({})
   function UpdateContext(values: any) {
     // console.log(values);

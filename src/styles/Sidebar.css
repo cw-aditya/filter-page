@@ -62,3 +62,26 @@ font-size: 24px;
     font-size: 24px;
     font-weight: 400;
 }
+
+
+.clear-filter {
+    display: flex;
+    justify-content: space-between;
+}
+.clear-filter > div {
+    margin-left: 16px;
+}
+
+.clear-filter > div > img {
+    margin-right: 10px;
+}
+.clear-filter > div > span {
+    font-size: 16px;
+}
+
+.clear-filter > button {
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    color: #0979B6;
+}
