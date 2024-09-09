@@ -1,12 +1,12 @@
 import { describe, expect, test } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
-// import userEvent from '@testing-library/user-event';
+import userEvent from '@testing-library/user-event';
 import BudgetFilter from '@/components/BudgetFilter.component'
 import FuelFilter from '@/components/FuelFilter.component';
 import MainContent from '@/components/mainContent.component';
 import Card from '@/components/Card.component';
-import { log } from 'console';
+import AllContexts from '@/components/AllContexts.component';
 
 // describe('A truthy statement', () => {
 //     it('renders the App component', () => {
@@ -16,12 +16,20 @@ import { log } from 'console';
 //       })
 // })
 
+// jest.mock('fs', () => ({
+//   promises: {
+//     access: jest.fn()
+//   }
+// }));
+
 
 
 describe("Budget Filter Component Test", () => {
   const setup = () => {
     return render(
-      <BudgetFilter />
+      <AllContexts>
+        <BudgetFilter />
+      </AllContexts>
     )
   }
 
@@ -35,8 +43,24 @@ describe("Budget Filter Component Test", () => {
     const inputs = screen.getAllByRole('spinbutton')
     inputs.forEach(element => {
       expect(element).toBeInTheDocument()
-
+      
     });
+  })
+  test("Should handle user Event input numbers", async () => {
+    setup()
+    const input = screen.getAllByRole('spinbutton')[0]
+    expect(input).toHaveValue(0)
+    await userEvent.type(input, '1')
+    expect(input).toHaveValue(1)
+  })
+  test("Should handle user Event min should not excced max", async () => {
+    setup()
+    const input_min = screen.getAllByRole('spinbutton')[0]
+    const input_max = screen.getAllByRole('spinbutton')[1]
+    expect(input_min).toHaveValue(0)
+    expect(input_max).toHaveValue(21)
+    await userEvent.type(input_min, '22')
+    expect(input_min).toHaveValue(2)
   })
   test("Budget Component Snapshot", () => {
     const component = setup();
@@ -47,7 +71,9 @@ describe("Budget Filter Component Test", () => {
 describe('Fuel Filter Component', () => {
   const setup = () => {
     return render(
-      <FuelFilter />
+      <AllContexts>
+        <FuelFilter />
+      </AllContexts>
     )
   }
   test('Should Contain 6 Checkboxes', () => {
@@ -62,12 +88,12 @@ describe('Fuel Filter Component', () => {
       expect(element).toBeInTheDocument()
     });
   });
-  // test('Should Update when input changes', async () => {
-  //   setup()
-  //   const input = screen.getAllByRole('checkbox')[0]
-  //   await userEvent.click(input)
-  //   expect(input).toBeChecked()
-  // });
+  test('Should Update when input changes', async () => {
+    setup()
+    const input = screen.getAllByRole('checkbox')[0]
+    await userEvent.click(input)
+    expect(input).toBeChecked()
+  });
   test("Fuel Filter Component Snapshot", () => {
     const component = setup();
     expect(component).toMatchSnapshot();
@@ -78,7 +104,11 @@ describe('Fuel Filter Component', () => {
 describe('Main Component Tests', () => {
 
   const setup = () => {
-    return render(<MainContent />)
+    return render(
+      <AllContexts>
+        <MainContent />
+      </AllContexts>
+    )
   }
 
   test('Should render sort by filter', () => {
@@ -115,7 +145,11 @@ describe('Car Card Component Test', () => {
       price: '5 Lakh',
       emiText: 'EMI Starts at ₹4,751'
     }
-    return render(<Card car={props} />)
+    return render(
+      <AllContexts>
+        <Card car={props} />
+      </AllContexts>
+    )
   }
   test('Should render car name & price', () => {
     setup()

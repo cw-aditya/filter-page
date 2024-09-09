@@ -42,7 +42,7 @@ exports[`Budget Filter Component Test > Budget Component Snapshot 1`] = `
             id="budget-max"
             name="budget-max"
             type="number"
-            value=""
+            value="21"
           />
           <h5
             class="filter-unit"
@@ -91,7 +91,7 @@ exports[`Budget Filter Component Test > Budget Component Snapshot 1`] = `
           id="budget-max"
           name="budget-max"
           type="number"
-          value=""
+          value="21"
         />
         <h5
           class="filter-unit"
